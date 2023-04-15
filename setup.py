@@ -6,7 +6,7 @@ setup(
     version='1.9',
     packages=find_packages(),
     long_description=open("README.md").read(),
-    scripts=['mtk','stage2'],
+    scripts=['mtk','mtk_gui','stage2'],
     data_files = ['LICENSE','README.md'],
     long_description_content_type="text/markdown",
     url='https://github.com/bkerler/mtkclient',
